@@ -1,0 +1,30 @@
+{
+  "name": "react-spa-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "description": "A React SPA boilerplate project with TypeScript & Vite.",
+  "license": "Apache-2.0",
+  "author": "ryan goree (https://github.com/ryangoree)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryangoree/react-spa-boilerplate.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}
