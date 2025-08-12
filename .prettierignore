@@ -1,0 +1,7 @@
+# Artifacts
+build
+cache
+coverage
+dist
+out
+*.tsbuildinfo
