@@ -1,5 +1,4 @@
 {
-  "prettier.configPath": ".prettierrc.cjs",
   "[css]": {
     "editor.defaultFormatter": "biomejs.biome"
   },
@@ -17,5 +16,7 @@
   },
   "[json]": {
     "editor.defaultFormatter": "biomejs.biome"
-  }
+  },
+  "prettier.configPath": ".prettierrc.cjs",
+  "rewrap.wrappingColumn": 100
 }
