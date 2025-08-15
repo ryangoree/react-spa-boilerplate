@@ -38,7 +38,8 @@
         "noExplicitAny": "info",
         "noDoubleEquals": "warn",
         "noAssignInExpressions": "off",
-        "noEmptyInterface": "off"
+        "noEmptyInterface": "off",
+        "noUnknownAtRules": "off"
       }
     }
   },
