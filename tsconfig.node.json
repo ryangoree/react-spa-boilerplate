@@ -1,5 +1,5 @@
 {
-  "include": ["vite.config.ts"],
+  "include": ["**/*.ts"],
   "compilerOptions": {
     // Environment
     "lib": ["esnext"],
@@ -12,10 +12,6 @@
     "allowSyntheticDefaultImports": true,
     "noUncheckedSideEffectImports": true,
     "erasableSyntaxOnly": true,
-    "baseUrl": ".",
-    "paths": {
-      "#/*": ["./src/*"]
-    },
 
     // Type Checking
     "strict": true,
