@@ -22,8 +22,6 @@
     "fix:unsafe": "npm run fix --unsafe",
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "build:watch": "tsup --watch",
-    "build:docs": "typedoc",
     "preview": "vite preview"
   },
   "dependencies": {
