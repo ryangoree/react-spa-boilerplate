@@ -52,5 +52,10 @@
       "arrowParentheses": "always",
       "bracketSameLine": false
     }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
   }
 }
