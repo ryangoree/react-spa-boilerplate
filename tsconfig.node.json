@@ -4,6 +4,7 @@
     // Environment
     "lib": ["esnext"],
     "module": "esnext",
+    "types": ["node"],
     "moduleDetection": "force",
     "moduleResolution": "bundler",
     "isolatedModules": true,

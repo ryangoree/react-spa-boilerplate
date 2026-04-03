@@ -2,14 +2,13 @@
   "include": ["src"],
   "compilerOptions": {
     // Environment
-    "lib": ["es2022", "DOM", "DOM.Iterable"],
+    "lib": ["es2023", "DOM"],
     "module": "esnext",
     "moduleDetection": "force",
     "moduleResolution": "bundler",
     "resolveJsonModule": true,
     "allowImportingTsExtensions": true,
     "erasableSyntaxOnly": true,
-    "baseUrl": ".",
     "paths": {
       "#/*": ["./src/*"]
     },
